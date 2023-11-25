@@ -1,0 +1,221 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: .5sec;
+}
+
+.header{
+    padding: 1.5rem 4%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(163, 150, 150);
+    align-items: center;
+     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+}
+
+.logo{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.header .navbar a{
+    margin-left: .7rem;
+    padding: .5rem 1.5rem;
+    font-weight: 500;
+    color: black;
+}
+
+.header .navbar a{
+    margin-left: .3rem;
+    padding: .5rem 1.5rem;
+    font-weight: 500;
+    color: black;
+    border-radius: 5px;
+}
+
+.header .navbar a:hover,
+header .navbar a.active{
+    background-color: black;
+    color: aliceblue;
+}
+
+.icons i{
+    margin-left: .5rem;
+    padding: .5rem;
+    background-color: #001133;
+    justify-content: space-between;
+    color: aliceblue;
+    border-radius: 5px;  
+}
+
+.icons i:hover{
+    transform: scale(1.1);
+}
+
+.home{
+    padding: 1.5rem 5%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.home .content{
+    flex: 1 1 30rem;
+}
+
+.home .image{
+    flex: 1 1 30rem;
+} 
+
+.home .content h1{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.home .content p{
+    font-size: 1.3rem;
+    color: black;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+}
+
+.btn{
+    padding: .7rem 1.5rem;
+    background: black;
+    border-radius: .5rem;
+    color: aliceblue;
+}
+
+.btn:hover{
+    background-color: rgb(240, 220, 220);
+    color: black;            
+}
+
+.service{
+    display: flex;
+    padding: 1.5rem 5%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    color: white;
+    background-color: black;
+    position: relative;
+} 
+.service .service-content{
+    flex: 1 1 30rem;
+}
+.service .service-img{
+    flex: 1 1 30rem;
+}
+
+
+.service .service-content h1{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.service .service-content p{
+    font-size: 1.3rem;
+    color: rgb(248, 234, 234);
+    line-height: 1.5;
+    margin-bottom: 2rem;
+}
+.custom-shape-divider-top-1700395809 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1700395809 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-top-1700395809 .shape-fill {
+    fill: #FFFFFF;
+}
+.animated , .service-content{
+    margin-top: 10rem;
+}
+
+.about{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+    margin-top: 5%;
+    position: relative;
+    padding-bottom: 10%;
+
+}
+
+.card{
+    width: 220px;
+    height: 400px;
+    background-color: grey;
+    border: none;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-top: 10px;
+
+} 
+.img img{
+    border: none;
+    border-radius: 10px;
+    justify-content: center;
+}
+.content-card {
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(67, 56, 56);
+    color: white;
+    padding-left: 20px;
+    margin-right: 20px;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+.custom-shape-divider-bottom-1700397821 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1700397821 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-bottom-1700397821 .shape-fill {
+    fill: #000000;
+}
+.contact{
+    background-color: black;
+    height: 500px;
+    color: white;
+    text-align: center;
+    padding-top: 5%;
+    font-size: 1.5rem;
+}
